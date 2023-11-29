@@ -60,9 +60,9 @@ def get_driver(request, get_browser):
     ## Add in here each page from the POM in order to initialize the driver for each one.
     # request.cls.homepage = HomePage(driver)
     driver.get(test_data.url)
-    request.cls.HomePage= HomePage
-    request.cls.Accessories_page= Accessories_page
-    request.cls.Hats_page= Hats_page
+    request.cls.homePages= HomePage(driver)
+    request.cls.accessoriespages= Accessories_page(driver)
+    request.cls.hatspages= Hats_page(driver)
     yield driver
     driver.quit()
 
