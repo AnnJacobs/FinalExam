@@ -1,4 +1,5 @@
-from ExamHani.examtemplate.TestingData import BaseTest
+from ExamHani.examtemplate.POM.Tests import BaseTest
+
 
 class TestExam(BaseTest):
     def test_filter_text(self):

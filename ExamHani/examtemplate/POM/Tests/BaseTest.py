@@ -1,7 +1,5 @@
 import pytest
-from ExamHani.examtemplate.POM import HomePage
-from ExamHani.examtemplate.POM import Accessories_page
-from ExamHani.examtemplate.POM import Hats_page
+
 
 @pytest.mark.usefixtures("get_driver")
 class BaseTest:

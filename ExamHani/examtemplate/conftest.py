@@ -3,6 +3,10 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from TestingData import test_data
+from ExamHani.examtemplate.POM.pages import Accessories_page
+from ExamHani.examtemplate.POM.pages import Hats_page
+from ExamHani.examtemplate.POM.pages import HomePage
+
 
 
 
